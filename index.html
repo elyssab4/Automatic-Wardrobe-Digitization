@@ -2,22 +2,1827 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automatic Wardrobe Digitization</title>
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #FAFAFA; color: #222; margin: 0; padding: 0; text-align: center; }
-        header { padding: 80px 20px; max-width: 800px; margin: 0 auto; }
-        h1 { font-size: 3rem; margin-bottom: 10px; color: #111; }
-        p { font-size: 1.2rem; color: #555; line-height: 1.6; }
-        .cta-btn { display: inline-block; background-color: #2A64EC; color: white; padding: 12px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: 20px; }
-        .cta-btn:hover { background-color: #1A44C2; }
-    </style>
+
+    <meta
+        name="description"
+        content="Fashionista — your digital closet, instantly. Organize your wardrobe, discover your style, and build outfits without photographing every item."
+    >
+
+    <meta name="theme-color" content="#ffcbd5">
+
+    <title>Fashionista — Your Closet, Instantly</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <h1>Your Entire Closet, Digitized in Seconds</h1>
-        <p>Welcome to <strong>Automatic Wardrobe Digitization</strong>. The smartest way to organize, style, and track your clothes right from your phone.</p>
-        <a href="#" class="cta-btn">Coming Soon</a>
+
+    <!-- =====================================================
+         NAVIGATION
+    ====================================================== -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="brand">
+                <img
+                    src="assets/fashionista-logo.png"
+                    alt="Fashionista logo"
+                >
+            </a>
+
+            <nav class="nav-links">
+
+                <a href="#how-it-works">
+                    How It Works
+                </a>
+
+                <a href="#features">
+                    Features
+                </a>
+
+                <a href="#app">
+                    The App
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+            </nav>
+
+            <a href="#app" class="nav-button">
+                Try Fashionista
+            </a>
+
+            <button
+                class="mobile-menu-button"
+                aria-label="Open navigation menu"
+            >
+                ☰
+            </button>
+
+        </div>
+
     </header>
+
+
+    <main>
+
+        <!-- =====================================================
+             HERO
+        ====================================================== -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-container">
+
+                <div class="hero-content">
+
+                    <div class="hero-logo-wrapper">
+
+                        <img
+                            src="assets/fashionista-logo.png"
+                            alt="Fashionista 2026"
+                            class="hero-logo"
+                        >
+
+                    </div>
+
+                    <p class="eyebrow">
+                        YOUR DIGITAL CLOSET, REIMAGINED
+                    </p>
+
+                    <h1>
+                        Your closet.
+                        <span>Instantly.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Fashionista turns your existing clothes and
+                        shopping history into a beautiful digital wardrobe
+                        without making you photograph every item one by one.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="#app"
+                            class="primary-button"
+                        >
+                            Explore the App ✨
+                        </a>
+
+                        <a
+                            href="#how-it-works"
+                            class="secondary-button"
+                        >
+                            See How It Works
+                        </a>
+
+                    </div>
+
+                    <div class="hero-stat">
+
+                        <div class="stat-number">
+                            5 sec
+                        </div>
+
+                        <div class="stat-text">
+                            to start building<br>
+                            your digital closet
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- APP CARD -->
+
+                <div class="hero-visual">
+
+                    <div class="floating-decoration decoration-one">
+                        ✦
+                    </div>
+
+                    <div class="floating-decoration decoration-two">
+                        ♡
+                    </div>
+
+                    <div class="phone-mockup">
+
+                        <div class="phone-top">
+
+                            <span>
+                                9:41
+                            </span>
+
+                            <span>
+                                ● ● ●
+                            </span>
+
+                        </div>
+
+
+                        <div class="phone-content">
+
+                            <img
+                                src="assets/ex-fashionista-logo.png"
+                                alt="EX Fashionista"
+                                class="app-logo"
+                            >
+
+                            <p class="app-greeting">
+                                Good morning! ♡
+                            </p>
+
+                            <h3>
+                                What's your vibe today?
+                            </h3>
+
+                            <div class="style-button">
+                                ✨ Style Me
+                            </div>
+
+
+                            <p class="mini-heading">
+                                YOUR CLOSET
+                            </p>
+
+
+                            <div class="clothing-grid">
+
+                                <div class="clothing-card">
+                                    <div class="clothing-image pink-shirt">
+                                        👚
+                                    </div>
+                                    <span>Top</span>
+                                </div>
+
+                                <div class="clothing-card">
+                                    <div class="clothing-image sage-pants">
+                                        👖
+                                    </div>
+                                    <span>Bottoms</span>
+                                </div>
+
+                                <div class="clothing-card">
+                                    <div class="clothing-image cream-shoes">
+                                        👟
+                                    </div>
+                                    <span>Shoes</span>
+                                </div>
+
+                                <div class="clothing-card">
+                                    <div class="clothing-image mauve-bag">
+                                        👜
+                                    </div>
+                                    <span>Bags</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="phone-navigation">
+
+                            <span class="active">
+                                🏠
+                                <small>Home</small>
+                            </span>
+
+                            <span>
+                                👗
+                                <small>Closet</small>
+                            </span>
+
+                            <span>
+                                ✨
+                                <small>Style</small>
+                            </span>
+
+                            <span>
+                                ♡
+                                <small>Profile</small>
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             PROBLEM
+        ====================================================== -->
+
+        <section class="problem-section" id="about">
+
+            <div class="section-container">
+
+                <div class="section-label">
+                    THE PROBLEM
+                </div>
+
+                <h2>
+                    Digital closets sound easy.
+                    <span>Building one isn't.</span>
+                </h2>
+
+                <p class="section-intro">
+                    Most digital wardrobe apps ask users to photograph,
+                    crop, upload, and categorize their clothes one at a time.
+                    For a closet with hundreds of pieces, that can become
+                    a huge chore.
+                </p>
+
+
+                <div class="problem-process">
+
+                    <div class="process-step">
+
+                        <div class="process-icon">
+                            📸
+                        </div>
+
+                        <h3>
+                            Take a photo
+                        </h3>
+
+                        <p>
+                            Photograph every item individually.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-arrow">
+                        →
+                    </div>
+
+
+                    <div class="process-step">
+
+                        <div class="process-icon">
+                            ✂️
+                        </div>
+
+                        <h3>
+                            Crop it
+                        </h3>
+
+                        <p>
+                            Remove your bedroom background.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-arrow">
+                        →
+                    </div>
+
+
+                    <div class="process-step">
+
+                        <div class="process-icon">
+                            ⬆️
+                        </div>
+
+                        <h3>
+                            Upload it
+                        </h3>
+
+                        <p>
+                            Add and organize every item.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-arrow">
+                        →
+                    </div>
+
+
+                    <div class="process-step problem-final">
+
+                        <div class="process-icon">
+                            😵
+                        </div>
+
+                        <h3>
+                            Repeat × 100
+                        </h3>
+
+                        <p>
+                            And eventually give up.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             SOLUTION
+        ====================================================== -->
+
+        <section class="solution-section">
+
+            <div class="section-container">
+
+                <div class="solution-grid">
+
+                    <div class="solution-content">
+
+                        <div class="section-label">
+                            MEET FASHIONISTA
+                        </div>
+
+                        <h2>
+                            Skip the
+                            <span>busy work.</span>
+                        </h2>
+
+                        <p>
+                            Fashionista is designed to make building a digital
+                            wardrobe fast, simple, and actually fun.
+                        </p>
+
+                        <p>
+                            Instead of photographing every piece individually,
+                            Fashionista can use purchase information and a quick
+                            video walkthrough of your closet to help build your
+                            wardrobe automatically.
+                        </p>
+
+                        <a
+                            href="#how-it-works"
+                            class="primary-button"
+                        >
+                            Discover the Process →
+                        </a>
+
+                    </div>
+
+
+                    <div class="solution-card">
+
+                        <img
+                            src="assets/ex-fashionista-logo.png"
+                            alt="EX Fashionista logo"
+                            class="solution-logo"
+                        >
+
+                        <div class="solution-card-text">
+
+                            <span>
+                                YOUR CLOSET
+                            </span>
+
+                            <strong>
+                                124 items
+                            </strong>
+
+                            <small>
+                                Organized & ready to style ✨
+                            </small>
+
+                        </div>
+
+                        <div class="progress-bar">
+
+                            <div class="progress-fill"></div>
+
+                        </div>
+
+                        <p class="progress-text">
+                            Your digital closet is growing...
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             HOW IT WORKS
+        ====================================================== -->
+
+        <section
+            class="how-section"
+            id="how-it-works"
+        >
+
+            <div class="section-container">
+
+                <div class="section-heading-center">
+
+                    <div class="section-label">
+                        HOW IT WORKS
+                    </div>
+
+                    <h2>
+                        Your closet.
+                        <span>Three easy steps.</span>
+                    </h2>
+
+                    <p>
+                        Fashionista takes the manual work out of
+                        creating your digital wardrobe.
+                    </p>
+
+                </div>
+
+
+                <div class="steps-grid">
+
+                    <!-- STEP 1 -->
+
+                    <article class="feature-step">
+
+                        <div class="step-number">
+                            01
+                        </div>
+
+                        <div class="step-icon">
+                            📧
+                        </div>
+
+                        <h3>
+                            Scan Your Purchases
+                        </h3>
+
+                        <p>
+                            Fashionista can scan clothing purchase
+                            information and help identify items you've
+                            already bought.
+                        </p>
+
+                        <div class="step-visual receipt-visual">
+
+                            <div class="email-window">
+
+                                <div class="email-header">
+                                    <span>✉</span>
+                                    <span>Order Confirmation</span>
+                                </div>
+
+                                <div class="email-content">
+
+                                    <strong>
+                                        Your order has shipped!
+                                    </strong>
+
+                                    <p>
+                                        H&M
+                                    </p>
+
+                                    <p>
+                                        Pink Knit Sweater
+                                    </p>
+
+                                    <p>
+                                        $39.99
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="scan-arrow">
+                                ↓
+                            </div>
+
+                            <div class="clean-item">
+                                👚
+                                <span>Added to Closet</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- STEP 2 -->
+
+                    <article class="feature-step">
+
+                        <div class="step-number">
+                            02
+                        </div>
+
+                        <div class="step-icon">
+                            📹
+                        </div>
+
+                        <h3>
+                            Scan Your Closet
+                        </h3>
+
+                        <p>
+                            Film a quick walkthrough of your physical
+                            closet and let Fashionista help identify
+                            and organize your existing pieces.
+                        </p>
+
+                        <div class="step-visual closet-visual">
+
+                            <div class="closet-frame">
+
+                                <div class="closet-bar"></div>
+
+                                <div class="closet-clothes">
+
+                                    <span>👚</span>
+                                    <span>👕</span>
+                                    <span>👗</span>
+                                    <span>🧥</span>
+                                    <span>👖</span>
+
+                                </div>
+
+                                <div class="scan-line"></div>
+
+                                <div class="scan-label">
+                                    SCANNING...
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- STEP 3 -->
+
+                    <article class="feature-step">
+
+                        <div class="step-number">
+                            03
+                        </div>
+
+                        <div class="step-icon">
+                            ✨
+                        </div>
+
+                        <h3>
+                            Start Styling
+                        </h3>
+
+                        <p>
+                            Once your wardrobe is organized, Fashionista
+                            gives you a visual closet you can actually
+                            use to discover outfits.
+                        </p>
+
+                        <div class="step-visual outfit-visual">
+
+                            <div class="outfit-card">
+
+                                <span class="outfit-title">
+                                    TODAY'S LOOK
+                                </span>
+
+                                <div class="outfit-items">
+
+                                    <span>👚</span>
+                                    <span>👖</span>
+                                    <span>👟</span>
+
+                                </div>
+
+                                <strong>
+                                    Casual + Cute
+                                </strong>
+
+                                <small>
+                                    Made from your closet
+                                </small>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             RECEIPT SCANNER
+        ====================================================== -->
+
+        <section class="scanner-section">
+
+            <div class="section-container">
+
+                <div class="scanner-grid">
+
+                    <div class="scanner-visual">
+
+                        <div class="scanner-card messy">
+
+                            <div class="messy-top">
+                                ✉️
+                            </div>
+
+                            <span>
+                                ORDER #48291
+                            </span>
+
+                            <h4>
+                                Your order is confirmed!
+                            </h4>
+
+                            <p>
+                                Pink Knit Sweater
+                            </p>
+
+                            <p>
+                                H&M
+                            </p>
+
+                            <strong>
+                                $39.99
+                            </strong>
+
+                        </div>
+
+
+                        <div class="scanner-transition">
+
+                            <span class="sparkle">
+                                ✦
+                            </span>
+
+                            <span>
+                                SCANNING
+                            </span>
+
+                            <span class="sparkle">
+                                ✦
+                            </span>
+
+                        </div>
+
+
+                        <div class="scanner-card clean">
+
+                            <div class="product-placeholder">
+                                👚
+                            </div>
+
+                            <h4>
+                                Pink Knit Sweater
+                            </h4>
+
+                            <p>
+                                H&M
+                            </p>
+
+                            <span class="added">
+                                ✓ Added to closet
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="scanner-content">
+
+                        <div class="section-label">
+                            RECEIPT SCANNER
+                        </div>
+
+                        <h2>
+                            From messy receipt
+                            <span>to perfect closet item.</span>
+                        </h2>
+
+                        <p>
+                            No more digging through your email to remember
+                            what you bought. Fashionista is designed to turn
+                            your purchase information into clean,
+                            organized wardrobe items.
+                        </p>
+
+                        <ul class="check-list">
+
+                            <li>
+                                <span>✓</span>
+                                Clean product visuals
+                            </li>
+
+                            <li>
+                                <span>✓</span>
+                                No individual photography required
+                            </li>
+
+                            <li>
+                                <span>✓</span>
+                                Faster wardrobe organization
+                            </li>
+
+                            <li>
+                                <span>✓</span>
+                                Easy-to-browse closet
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             CLOSET SCAN
+        ====================================================== -->
+
+        <section class="closet-scan-section">
+
+            <div class="section-container">
+
+                <div class="closet-scan-grid">
+
+                    <div class="closet-scan-content">
+
+                        <div class="section-label">
+                            CLOSET SCAN
+                        </div>
+
+                        <h2>
+                            One quick walkthrough.
+                            <span>Your closet, digitized.</span>
+                        </h2>
+
+                        <p>
+                            Instead of taking hundreds of individual
+                            photographs, film your closet once and let
+                            Fashionista help turn your physical wardrobe
+                            into a digital one.
+                        </p>
+
+                        <div class="tutorial-list">
+
+                            <div class="tutorial-item">
+
+                                <div class="tutorial-number">
+                                    1
+                                </div>
+
+                                <div>
+                                    <strong>
+                                        Open your closet
+                                    </strong>
+
+                                    <p>
+                                        Make sure your clothes are visible.
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <div class="tutorial-item">
+
+                                <div class="tutorial-number">
+                                    2
+                                </div>
+
+                                <div>
+                                    <strong>
+                                        Start recording
+                                    </strong>
+
+                                    <p>
+                                        Slowly move across your wardrobe.
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <div class="tutorial-item">
+
+                                <div class="tutorial-number">
+                                    3
+                                </div>
+
+                                <div>
+                                    <strong>
+                                        Let Fashionista scan
+                                    </strong>
+
+                                    <p>
+                                        Your wardrobe becomes digital.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="closet-phone">
+
+                        <div class="video-screen">
+
+                            <div class="video-top">
+                                <span>9:41</span>
+                                <span>●</span>
+                            </div>
+
+                            <div class="closet-video-content">
+
+                                <div class="closet-rack">
+
+                                    <span>👚</span>
+                                    <span>👕</span>
+                                    <span>👗</span>
+                                    <span>🧥</span>
+                                    <span>👖</span>
+                                    <span>👚</span>
+
+                                </div>
+
+                                <div class="recording">
+                                    <span></span>
+                                    Recording closet...
+                                </div>
+
+                            </div>
+
+                            <div class="record-button">
+                                ●
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             FEATURES
+        ====================================================== -->
+
+        <section
+            class="features-section"
+            id="features"
+        >
+
+            <div class="section-container">
+
+                <div class="section-heading-center">
+
+                    <div class="section-label">
+                        WHY FASHIONISTA
+                    </div>
+
+                    <h2>
+                        Less work.
+                        <span>More style.</span>
+                    </h2>
+
+                    <p>
+                        Fashionista is built around making your wardrobe
+                        easier to understand and more fun to use.
+                    </p>
+
+                </div>
+
+
+                <div class="features-grid">
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            ⚡
+                        </div>
+
+                        <h3>
+                            Instant Organization
+                        </h3>
+
+                        <p>
+                            Spend less time uploading clothes and more
+                            time actually using your digital wardrobe.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            ✨
+                        </div>
+
+                        <h3>
+                            Clean Visuals
+                        </h3>
+
+                        <p>
+                            Browse polished clothing visuals instead of
+                            cluttered bedroom-background photographs.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            💡
+                        </div>
+
+                        <h3>
+                            Style Insights
+                        </h3>
+
+                        <p>
+                            Understand what you own and discover new
+                            combinations hiding inside your wardrobe.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            ♡
+                        </div>
+
+                        <h3>
+                            Made for Your Style
+                        </h3>
+
+                        <p>
+                            Fashionista is designed around teens and
+                            young adults who want fashion to feel fun,
+                            social, and effortless.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             APP PREVIEW
+        ====================================================== -->
+
+        <section
+            class="app-section"
+            id="app"
+        >
+
+            <div class="section-container">
+
+                <div class="app-heading">
+
+                    <div>
+
+                        <div class="section-label">
+                            THE APP
+                        </div>
+
+                        <h2>
+                            Meet your new
+                            <span>digital closet.</span>
+                        </h2>
+
+                    </div>
+
+                    <p>
+                        Everything you need to organize, explore,
+                        and style the clothes you already own.
+                    </p>
+
+                </div>
+
+
+                <div class="app-showcase">
+
+                    <!-- PHONE 1 -->
+
+                    <div class="app-phone small-phone">
+
+                        <div class="app-phone-screen">
+
+                            <img
+                                src="assets/ex-fashionista-logo.png"
+                                alt="Fashionista"
+                                class="mini-app-logo"
+                            >
+
+                            <h4>
+                                My Closet
+                            </h4>
+
+                            <div class="filter-row">
+
+                                <span class="selected">
+                                    All
+                                </span>
+
+                                <span>
+                                    Tops
+                                </span>
+
+                                <span>
+                                    Shoes
+                                </span>
+
+                            </div>
+
+
+                            <div class="mini-clothing-grid">
+
+                                <div>👚</div>
+                                <div>👕</div>
+                                <div>👗</div>
+                                <div>🧥</div>
+                                <div>👖</div>
+                                <div>👟</div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PHONE 2 -->
+
+                    <div class="app-phone main-phone">
+
+                        <div class="app-phone-screen">
+
+                            <div class="app-status">
+                                <span>9:41</span>
+                                <span>● ●</span>
+                            </div>
+
+                            <img
+                                src="assets/ex-fashionista-logo.png"
+                                alt="EX Fashionista"
+                                class="main-app-logo"
+                            >
+
+                            <p class="welcome">
+                                Good morning! ✨
+                            </p>
+
+                            <h3>
+                                What's the vibe?
+                            </h3>
+
+                            <button class="style-me-button">
+                                ✨ Style Me
+                            </button>
+
+
+                            <div class="closet-summary">
+
+                                <div>
+                                    <strong>
+                                        124
+                                    </strong>
+
+                                    <span>
+                                        Items
+                                    </span>
+                                </div>
+
+                                <div>
+                                    <strong>
+                                        32
+                                    </strong>
+
+                                    <span>
+                                        Outfits
+                                    </span>
+                                </div>
+
+                                <div>
+                                    <strong>
+                                        8
+                                    </strong>
+
+                                    <span>
+                                        Categories
+                                    </span>
+                                </div>
+
+                            </div>
+
+
+                            <p class="phone-section-title">
+                                RECENTLY ADDED
+                            </p>
+
+
+                            <div class="recent-items">
+
+                                <div>
+                                    👚
+                                </div>
+
+                                <div>
+                                    👖
+                                </div>
+
+                                <div>
+                                    👟
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PHONE 3 -->
+
+                    <div class="app-phone small-phone">
+
+                        <div class="app-phone-screen">
+
+                            <div class="outfit-header">
+                                <span>
+                                    ←
+                                </span>
+
+                                <strong>
+                                    Style Me
+                                </strong>
+
+                                <span>
+                                    ♡
+                                </span>
+                            </div>
+
+                            <p class="outfit-question">
+                                Dress me for...
+                            </p>
+
+                            <div class="occasion-options">
+
+                                <span>
+                                    School
+                                </span>
+
+                                <span class="active">
+                                    Casual
+                                </span>
+
+                                <span>
+                                    Going Out
+                                </span>
+
+                                <span>
+                                    Party
+                                </span>
+
+                            </div>
+
+                            <div class="generated-outfit">
+
+                                <div>
+                                    👚
+                                </div>
+
+                                <span>+</span>
+
+                                <div>
+                                    👖
+                                </div>
+
+                                <span>+</span>
+
+                                <div>
+                                    👟
+                                </div>
+
+                            </div>
+
+                            <h4>
+                                Casual + Cute
+                            </h4>
+
+                            <p>
+                                Made from your closet ♡
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             INTERVIEW INSIGHTS
+        ====================================================== -->
+
+        <section class="insights-section">
+
+            <div class="section-container">
+
+                <div class="insights-header">
+
+                    <div>
+
+                        <div class="section-label">
+                            USER RESEARCH
+                        </div>
+
+                        <h2>
+                            Built around
+                            <span>real frustrations.</span>
+                        </h2>
+
+                    </div>
+
+                    <p>
+                        These questions help us understand what users
+                        actually need from a digital wardrobe.
+                    </p>
+
+                </div>
+
+
+                <div class="questions-grid">
+
+                    <div class="question-card">
+
+                        <span>
+                            01
+                        </span>
+
+                        <p>
+                            What digital closet or outfit-planning apps
+                            have you tried in the past, and why did you
+                            stop using them?
+                        </p>
+
+                    </div>
+
+
+                    <div class="question-card">
+
+                        <span>
+                            02
+                        </span>
+
+                        <p>
+                            When buying clothes online, what do you
+                            usually do with order confirmation and
+                            shipping emails?
+                        </p>
+
+                    </div>
+
+
+                    <div class="question-card">
+
+                        <span>
+                            03
+                        </span>
+
+                        <p>
+                            How would you feel about an app that could
+                            build 80% of your digital closet from
+                            clothing receipts?
+                        </p>
+
+                    </div>
+
+
+                    <div class="question-card">
+
+                        <span>
+                            04
+                        </span>
+
+                        <p>
+                            Once your closet was digitized, what would
+                            you want the app to do first?
+                        </p>
+
+                    </div>
+
+
+                    <div class="question-card">
+
+                        <span>
+                            05
+                        </span>
+
+                        <p>
+                            What would make you open this app every
+                            week instead of using it once?
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             COMPETITIVE DIFFERENCE
+        ====================================================== -->
+
+        <section class="difference-section">
+
+            <div class="section-container">
+
+                <div class="section-heading-center">
+
+                    <div class="section-label">
+                        OUR APPROACH
+                    </div>
+
+                    <h2>
+                        The difference is
+                        <span>how you start.</span>
+                    </h2>
+
+                    <p>
+                        Traditional digital closets often begin with
+                        manual uploads. Fashionista begins with automation.
+                    </p>
+
+                </div>
+
+
+                <div class="comparison">
+
+                    <div class="comparison-column traditional">
+
+                        <div class="comparison-heading">
+                            Traditional
+                        </div>
+
+                        <div class="comparison-item">
+                            📸 Photograph every item
+                        </div>
+
+                        <div class="comparison-item">
+                            ✂️ Crop backgrounds
+                        </div>
+
+                        <div class="comparison-item">
+                            ⬆️ Upload individually
+                        </div>
+
+                        <div class="comparison-item">
+                            🏷️ Categorize manually
+                        </div>
+
+                    </div>
+
+
+                    <div class="comparison-divider">
+
+                        <div>
+                            VS
+                        </div>
+
+                    </div>
+
+
+                    <div class="comparison-column fashionista">
+
+                        <div class="comparison-heading">
+                            Fashionista
+                        </div>
+
+                        <div class="comparison-item">
+                            📧 Scan purchase information
+                        </div>
+
+                        <div class="comparison-item">
+                            📹 Scan your physical closet
+                        </div>
+
+                        <div class="comparison-item">
+                            ✨ Build your digital wardrobe
+                        </div>
+
+                        <div class="comparison-item">
+                            👗 Start styling
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             TIKTOK / SOCIAL SECTION
+        ====================================================== -->
+
+        <section class="social-section">
+
+            <div class="section-container">
+
+                <div class="social-card">
+
+                    <div class="social-content">
+
+                        <div class="section-label">
+                            THE FASHIONISTA MOMENT
+                        </div>
+
+                        <h2>
+                            "I tried sorting my closet
+                            on other apps..."
+                        </h2>
+
+                        <p class="social-quote">
+                            "...and it took 3 hours."
+                        </p>
+
+                        <div class="social-highlight">
+                            Watch Fashionista do it in
+                            <strong>5 seconds.</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="social-phone">
+
+                        <div class="social-video">
+
+                            <div class="video-header">
+                                <span>
+                                    @fashionista
+                                </span>
+
+                                <span>
+                                    ⋯
+                                </span>
+                            </div>
+
+                            <div class="video-main">
+
+                                <div class="video-person">
+                                    👩🏻
+                                </div>
+
+                                <div class="video-text">
+                                    I tried sorting my closet
+                                    on other apps...
+
+                                    <strong>
+                                        3 HOURS 😭
+                                    </strong>
+                                </div>
+
+                            </div>
+
+                            <div class="video-bottom">
+
+                                <span>
+                                    ♡ 12.4K
+                                </span>
+
+                                <span>
+                                    💬 382
+                                </span>
+
+                                <span>
+                                    ↗
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             PRIVACY
+        ====================================================== -->
+
+        <section class="privacy-section">
+
+            <div class="section-container">
+
+                <div class="privacy-card">
+
+                    <div class="privacy-icon">
+                        🔒
+                    </div>
+
+                    <div>
+
+                        <div class="section-label">
+                            PRIVACY MATTERS
+                        </div>
+
+                        <h2>
+                            Your closet is
+                            <span>your business.</span>
+                        </h2>
+
+                        <p>
+                            Fashionista should make wardrobe organization
+                            easier without making users feel uncomfortable
+                            about their personal data. Any future email or
+                            purchase-data integrations should clearly explain
+                            what information is accessed, why it is needed,
+                            and what happens to it.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             FINAL CTA
+        ====================================================== -->
+
+        <section class="cta-section">
+
+            <div class="section-container">
+
+                <div class="cta-card">
+
+                    <img
+                        src="assets/fashionista-logo.png"
+                        alt="Fashionista"
+                        class="cta-logo"
+                    >
+
+                    <h2>
+                        Your closet is waiting.
+                    </h2>
+
+                    <p>
+                        Stop photographing. Start styling.
+                    </p>
+
+                    <div class="cta-buttons">
+
+                        <a
+                            href="#app"
+                            class="primary-button light"
+                        >
+                            Explore Fashionista ✨
+                        </a>
+
+                        <a
+                            href="https://github.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="secondary-button light-outline"
+                        >
+                            View on GitHub
+                        </a>
+
+                    </div>
+
+                    <div class="cta-heart">
+                        2026 ♥
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <img
+                    src="assets/fashionista-logo.png"
+                    alt="Fashionista"
+                >
+
+                <p>
+                    Your closet, instantly.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <div>
+
+                    <h4>
+                        Explore
+                    </h4>
+
+                    <a href="#how-it-works">
+                        How It Works
+                    </a>
+
+                    <a href="#features">
+                        Features
+                    </a>
+
+                    <a href="#app">
+                        App
+                    </a>
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+                        Project
+                    </h4>
+
+                    <a href="#about">
+                        About
+                    </a>
+
+                    <a href="#features">
+                        Research
+                    </a>
+
+                    <a href="https://github.com/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-mark">
+
+                <img
+                    src="assets/ex-fashionista-logo.png"
+                    alt="EX Fashionista"
+                >
+
+                <span>
+                    Fashionista © 2026
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                Made with ♡ for fashion lovers.
+            </p>
+
+            <p>
+                Fashionista 2026
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="script.js"></script>
+
 </body>
 </html>
