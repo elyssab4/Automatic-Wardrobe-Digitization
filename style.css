@@ -6,10 +6,10 @@
    ========================================================= */
 
 :root {
-    --sage: #D8E2DC;         /* Top-Left Swatch */
-    --cream: #fee1d468;        /* Top-Right Swatch */
+    --sage: #f5e4f4;         /* Top-Left Swatch */
+    --cream: #fee1d47a;        /* Top-Right Swatch */
     --pink-light: #ffcad4be;   /* Middle-Left Swatch */
-    --pink: #f4acb7c9;         /* Middle-Right Swatch */
+    --pink: #c8f5cd89;         /* Middle-Right Swatch */
     --mauve: #9d8189b5;        /* Bottom Swatch */
 
     --white: #FFFFFF;
