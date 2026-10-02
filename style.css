@@ -1,7 +1,4 @@
-/* =========================================================
-   FASHIONISTA
-   Main Stylesheet
-   ========================================================= */
+
 
 
 /* =========================================================
@@ -9,12 +6,11 @@
    ========================================================= */
 
 :root {
-
-    --sage: #D8E2DC;
-    --cream: #FFE5D9;
-    --pink-light: #FFCAD4;
-    --pink: #F4ACB7;
-    --mauve: #9D8189;
+    --sage: #D8E2DC;         /* Top-Left Swatch */
+    --cream: #FFE5D9;        /* Top-Right Swatch */
+    --pink-light: #FFCAD4;   /* Middle-Left Swatch */
+    --pink: #F4ACB7;         /* Middle-Right Swatch */
+    --mauve: #9D8189;        /* Bottom Swatch */
 
     --white: #FFFFFF;
     --off-white: #FFF9F7;
