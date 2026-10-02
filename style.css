@@ -8,9 +8,9 @@
 :root {
     --sage: #D8E2DC;         /* Top-Left Swatch */
     --cream: #fee1d468;        /* Top-Right Swatch */
-    --pink-light: #FFCAD4;   /* Middle-Left Swatch */
-    --pink: #F4ACB7;         /* Middle-Right Swatch */
-    --mauve: #9D8189;        /* Bottom Swatch */
+    --pink-light: #ffcad4be;   /* Middle-Left Swatch */
+    --pink: #f4acb7c9;         /* Middle-Right Swatch */
+    --mauve: #9d8189b5;        /* Bottom Swatch */
 
     --white: #FFFFFF;
     --off-white: #FFF9F7;
